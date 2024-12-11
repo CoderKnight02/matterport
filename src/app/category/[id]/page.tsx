@@ -71,7 +71,8 @@ const categories = [
     name: "Restaurant",
     price: "",
     description: "A high-end restaurant space with gourmet potential.",
-    src: "https://my.matterport.com/show/?m=eWt3Mtf8tuZ",
+    src: "https://my.matterport.com/show/?m=SjNknZwSukG",
+    // src: "https://my.matterport.com/show/?m=eWt3Mtf8tuZ",
   },
 ];
 
@@ -105,6 +106,7 @@ export default async function CategoryPage({ params }: { params: { id: string } 
           allowFullScreen
           allow="xr-spatial-tracking"
         ></iframe>
+
       </div>
 
       <Button asChild>
