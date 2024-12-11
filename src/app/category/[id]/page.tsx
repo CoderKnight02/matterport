@@ -76,7 +76,8 @@ const categories = [
   },
 ];
 
-export default async function CategoryPage({ params }: { params: { id: string } }) {
+export default async function CategoryPage({ params }: { params: Promise<{ id: string }> }) {
+  
   const { id } = await params;
   const category = categories.find((c) => c.id === id);
 
